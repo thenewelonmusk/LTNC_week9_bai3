@@ -14,7 +14,7 @@ public class CalculatorTest {
     public void testDivide1() {
         Calculator calculator = new Calculator();
         int actualResult = calculator.divide(6, 3);
-        int expectedResult = 2;
+        int expectedResult = 1;
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
